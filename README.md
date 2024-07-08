@@ -1,1 +1,1 @@
-# wk2-coding-challenge
+# Interactive Shopping List
