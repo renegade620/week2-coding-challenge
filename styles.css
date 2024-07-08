@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aqua;
+}
+
+#list {
+  position: sticky;
+  text-align: center;
+  background-color: white;
+  max-width: 50%;
+  max-height: 50%
+}
+
+#list #list-items li {
+  list-style-position: inside;
+}
+
+
+.button-delete {
+  border: none;
+  background-color: transparent;
+}
+
+.purchased {
+  text-decoration: line-through;
+}
