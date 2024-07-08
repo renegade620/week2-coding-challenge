@@ -1,0 +1,11 @@
+{
+  "name": "wk2-coding-challenge",
+  "version": "1.0.0",
+  "description": "Develop a webpage with a shopping list. Users can add items to the list, mark items as purchased, and clear the list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
