@@ -27,12 +27,12 @@ function addListItem(item) {
   deleteButton.classList.add("button-delete"); // adds class to the delete button
 
   li.appendChild(deleteButton);
-  deleteButton.addEventListener("click", function () {
+  deleteButton.addEventListener("click", function () { // deletes the list item
     li.remove();
     shoppingList.splice(shoppingList.indexOf(item), 1);
   });
 
-  li.addEventListener("click", function () {
+  li.addEventListener("click", function () { // adds a strikethrough to the list item when clicked i.e to show purchased
     li.classList.toggle("purchased"); 
   });
 
